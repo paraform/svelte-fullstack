@@ -1,4 +1,4 @@
-<h1 class="text-3xl font-bold underline text-red-500">Hello world!</h1>
+<h1 class="text-3xl font-bold text-red-500 underline">Hello world!</h1>
 
 <style lang="postcss">
 	:global(html) {
