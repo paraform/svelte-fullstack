@@ -2,5 +2,17 @@
 	"[svelte]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"prettier.documentSelectors": ["**/*.svelte"]
+	"prettier.documentSelectors": ["**/*.svelte"],
+	"sqltools.connections": [
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "svelte-fullstack",
+			"username": "postgres",
+			"database": "postgres",
+			"password": "postgres"
+		}
+	]
 }
